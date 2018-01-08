@@ -1,2 +1,52 @@
+$navbar-default-bg: black;
 
+@import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+    text-align: center;
+}
+.jumbotron {
+    background-image: asset-url('ingredientbg1.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+.jumbotron h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.jumbotron h2 {
+    // color: #72B244;
+    color: #FF0D03;
+    font-weight: 600;
+}
+.jumbotron h3 {
+    // color: #FF0D03;
+    color: #476F06;
+    font-weight: 600;
+}
+.jumbotron p .btn {
+    color: #434541;
+}
+#72B244
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-group {
+    display: flex;
+}
