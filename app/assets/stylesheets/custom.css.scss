@@ -90,18 +90,7 @@ $navbar-default-bg: #74B96E;
     
 }
 
-footer {
-    margin-top: 25px;
-    padding-top: 5px;
-    border-top: 1px solid #eaeaea;
-    color: #777;
-}
-footer a {
-    color: 555;
-}
-footer a:hover {
-    color: #222;
-}
+
 
 
 .hovereffect {
@@ -190,4 +179,68 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+footer a {
+  color: #73B86E !important;
+}
+footer a:hover {
+  color: #222;
+}
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+.foot {
+  color: #73B86E !important;
+}
+
+// footer {
+//     margin-top: 25px;
+//     padding-top: 25px;
+//     border-top: 1px solid #eaeaea;
+//     color: #777;
+// }
+// footer a {
+//     color: #555;
+// }
+// footer a:hover {
+//     color: #222;
+// }
+
+/* end of footer */
+
+/* show page */
+
+.description {
+    margin-top: 0;
+}
+
+/* index page */
+.well a {
+   color: #74B96E; 
+}
+
+.chef_info {
+  margin-top: 10px;
+}
+.cancel-link a {
+  color: #74B96E;
 }
