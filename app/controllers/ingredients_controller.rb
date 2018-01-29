@@ -1,6 +1,7 @@
 class IngredientsController < ApplicationController
   before_action :set_ingredient, only: [:edit, :update, :show, :destroy]
-  before_action :require_admin, except: [:show, :index]
+  before_action :require_admin, only: [:edit]
+  # before_action :require_admin, except: [:show, :index, :udpate, :create, :new]
   # before_action :sort_ingredient, only: [:index, :show]
   
   def index
