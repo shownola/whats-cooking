@@ -48,4 +48,4 @@ $(document).ready(function() {
   scrollToBottom();
 });
 
-$("#comment_description").reset();
+// $("#comment_description").reset();
